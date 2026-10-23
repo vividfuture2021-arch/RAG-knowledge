@@ -1,0 +1,33 @@
+# Local secrets and environment configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python environments and generated files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+
+# Local IDE and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Runtime outputs and model caches
+*.log
+logs/
+temp-files/
+.cache/
